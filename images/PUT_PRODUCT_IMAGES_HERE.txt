@@ -1,0 +1,25 @@
+PRODUCT IMAGES
+
+Put your product photos in this folder.
+
+The filename must match products.js.
+Examples:
+student-laptop.jpg
+office-laptop.jpg
+gaming-laptop.jpg
+dome-camera.jpg
+keyboard.jpg
+
+If an image is missing, the product card will show its emoji instead.
+
+To add a new product, copy this in products.js:
+
+{
+  category: "Laptops",
+  icon: "💻",
+  name: "HP Laptop 15",
+  image: "images/hp-laptop-15.jpg",
+  description: "Available in our shop"
+},
+
+Then put hp-laptop-15.jpg inside this images folder.
